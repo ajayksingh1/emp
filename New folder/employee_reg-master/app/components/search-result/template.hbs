@@ -1,0 +1,44 @@
+<div class="container">
+  <h2>Search Results</h2>
+  <p>The result for the search is:</p>            
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Department</th>
+        <th>Age</th>
+        <th>DOB</th>
+        <th> Edit/Delete</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>314159</td>
+        <td>Ajay</td>
+        <td>No dept</td>
+        <td>23</td>
+        <td>14/01/1993</td>
+        <td><button>{{#link-to 'details'}}Edit{{/link-to}}</button><button>{{#link-to 'details'}}Delete{{/link-to}}</button></td>
+      </tr>
+      <tr>
+        <td>314154</td>
+        <td>Yahoo</td>
+        <td>No dept</td>
+        <td>83</td>
+        <td>14/01/1934</td>
+        <td></td>
+        <td><button>{{#link-to 'details'}}Edit{{/link-to}}</button><button>{{#link-to 'details'}}Delete{{/link-to}}</button></td>
+      </tr>
+      <tr>
+        <td>314190</td>
+        <td>Google</td>
+        <td>No dept</td>
+        <td>18</td>
+        <td>14/01/1995</td>
+        <td><button>{{#link-to 'details'}}Edit{{/link-to}}</button><button>{{#link-to 'details'}}Delete{{/link-to}}</button></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+{{yield}}
