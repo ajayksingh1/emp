@@ -1,0 +1,26 @@
+<h3>Results for the search is:</h3>
+
+<table class="table table-hover">
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Name</th>
+      <th>ID</th>
+      <th>Department</th>
+      <th>DOB</th>
+      <th>Edit/Delete</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Ajay</td>
+      <td>314159</td>
+      <td>r&d</td>
+      <td>14-Jan-1993</td>
+      <td><button type="button" class="btn btn-primary btn-sm edit">{{#link-to 'details'}}Edit{{/link-to}}</button><button type="button" class="btn btn-danger btn-sm">Delete</button></td>
+    </tr>
+  </tbody>
+</table>
+
+{{yield}}
